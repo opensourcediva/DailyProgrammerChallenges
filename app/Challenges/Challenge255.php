@@ -12,7 +12,7 @@ namespace App\Challenges;
 class Challenge255
 {
     private $switchesOnState=[];
-
+ 
     public function __construct($totalswitches = 10){
 
         for($i=0; $i<$totalswitches; $i++){$this->switchesOnState[$i] = 0;}
